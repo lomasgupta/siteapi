@@ -1,0 +1,8 @@
+siteapi:
+  path: '/page_json/{api}/{node}'
+  defaults:
+    _controller: '\Drupal\siteapi\Controller\CreateJsonController::get_json_content'
+    _title: 'Get content in json format for node id'
+    api: 'api'
+  requirements:
+    _permission: 'access content'

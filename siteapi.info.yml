@@ -1,0 +1,6 @@
+name: Site API
+type: module
+description: 'Custom Module'
+package: Admin
+core: '8.x'
+datestamp: 1466607125
